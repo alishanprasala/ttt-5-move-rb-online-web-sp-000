@@ -8,5 +8,6 @@ end
 def input_to_index(string)
 string.to_i - 1
 end
-def move(board, index, user_marker = "X")
+def move(board, index, current_player = "X")
+  board[string.to_i] = current_player
 # code your input_to_index and move method here!
